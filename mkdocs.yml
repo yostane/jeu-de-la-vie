@@ -1,0 +1,58 @@
+site_name: Séminaire Algortihmie
+site_url: https://yostane.github.io/seminaire-algo/
+
+nav:
+  - Accueil: index.md
+  - Rappels de Python: python-tour.ipynb
+
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md
+  - i18n:
+      material_alternate: true
+      default_language: fr
+      languages:
+        fr:
+          name: Français
+          build: true
+  - mkdocs-jupyter:
+      execute: True
+
+theme:
+  name: material
+  features:
+    - navigation.top
+  palette:
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: deep purple
+      accent: light green
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: deep purple
+      accent: light green
+
+extra_css:
+  - https://pyscript.net/latest/pyscript.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.inlinehilite
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.snippets:
+      base_path: ["material/"]
