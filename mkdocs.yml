@@ -1,5 +1,13 @@
 site_name: Séminaire Algortihmie
-site_url: https://yostane.github.io/seminaire-algo/
+site_url: https://yostane.github.io/jeu-de-la-vie/
+repo_url: https://github.com/yostane/jeu-de-la-vie
+repo_name: yostane/jeu-de-la-vie
+edit_uri: ""
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/yostane
 
 nav:
   - Accueil: index.md
@@ -20,9 +28,13 @@ plugins:
       execute: True
 
 theme:
+  logo: img/logo.jpg
+  favicon: img/logo.jpg
   name: material
   features:
     - navigation.top
+  icon:
+    repo: fontawesome/brands/github
   palette:
     - scheme: default
       media: "(prefers-color-scheme: light)"
@@ -38,9 +50,6 @@ theme:
         name: Switch to light mode
       primary: deep purple
       accent: light green
-
-extra_css:
-  - https://pyscript.net/latest/pyscript.css
 
 markdown_extensions:
   - admonition
