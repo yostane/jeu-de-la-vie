@@ -1,19 +1,17 @@
----
-
----
-
 # Séminaire d'algorithmie sur le jeu de la vie
+
+![logo](img/logo.jpg)
 
 ## Prérequis
 
 - Installer un gestionnaire de paquets (permet d'installer facilement des programmes)
-  - Windows: [scoop.sh](https://scoop.sh/)
-  - MacOS: [homebrew](https://brew.sh/)
+    - Windows: [scoop.sh](https://scoop.sh/)
+    - MacOS: [homebrew](https://brew.sh/)
 - Une fois l'installation terminée, ouvrir un nouveau terminal pour installer python
-  - Windows: `scoop install python`
-  - MacOS: `brew install python`
+    - Windows: `scoop install python`
+    - MacOS: `brew install python`
 - Installer [Visual Studio Code (ou VSCode)](https://code.visualstudio.com/)
-  - Installer l'extension [python de VSCode](https://marketplace.visualstudio.com/items?itemName=ms-python.python) 
+    - Installer l'extension [python de VSCode](https://marketplace.visualstudio.com/items?itemName=ms-python.python) 
 
 ## Automates cellulaires
 

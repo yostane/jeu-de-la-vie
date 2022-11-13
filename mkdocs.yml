@@ -15,18 +15,11 @@ nav:
   - Notions avancées de Python: python-avance.ipynb
 
 plugins:
+  - mkdocs-jupyter:
+      execute: True
   - search
   - tags:
       tags_file: tags.md
-  - i18n:
-      material_alternate: true
-      default_language: fr
-      languages:
-        fr:
-          name: Français
-          build: true
-  - mkdocs-jupyter:
-      execute: True
 
 theme:
   logo: img/logo.jpg
