@@ -2,17 +2,10 @@
 
 ![logo](img/logo.jpg)
 
-## Prérequis
+## Algorithme
 
-- Installer un gestionnaire de paquets (permet d'installer facilement des programmes)
-    - Windows: [scoop.sh](https://scoop.sh/)
-    - MacOS: [homebrew](https://brew.sh/)
-- Une fois l'installation terminée, ouvrir un nouveau terminal pour installer python
-    - Windows: `scoop install python`
-    - MacOS: `brew install python`
-- Installer les librairies Python suivantes `pip install ipykernel pandas matplotlib numpy ipympl`
-- Installer [Visual Studio Code (ou VSCode)](https://code.visualstudio.com/)
-    - Installer l'extension [python de VSCode](https://marketplace.visualstudio.com/items?itemName=ms-python.python) 
+- Le Robert: Ensemble des règles opératoires propres à un calcul ; suite de règles formelles.
+- En informatique: ensembles de règles indiquant à l'ordinateur comment effectuer une tâche ([datascientest.com](https://datascientest.com/algorithme)).
 
 ## Automate cellulaire
 
@@ -40,6 +33,18 @@
   <figcaption>Exemple d'évolution du jeu de la vie</figcaption>
 </figure>
 
+
+## Environnement de développement
+
+- Installer un gestionnaire de paquets (permet d'installer facilement des programmes)
+    - Windows: [scoop.sh](https://scoop.sh/)
+    - MacOS: [homebrew](https://brew.sh/)
+- Une fois l'installation terminée, ouvrir un nouveau terminal pour installer python
+    - Windows: `scoop install python`
+    - MacOS: `brew install python`
+- Installer les librairies Python suivantes `pip install ipykernel pandas matplotlib numpy ipympl`
+- Installer [Visual Studio Code (ou VSCode)](https://code.visualstudio.com/)
+    - Installer l'extension [python de VSCode](https://marketplace.visualstudio.com/items?itemName=ms-python.python) 
 
 ## Sources
 

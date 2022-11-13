@@ -61,4 +61,4 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.snippets:
-      base_path: ["material/"]
+      base_path: ["samples/"]
