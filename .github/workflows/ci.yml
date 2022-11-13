@@ -16,4 +16,5 @@ jobs:
       - run: pip install mdx_truly_sane_lists
       - run: pip install mkdocs-jupyter
       - run: pip install ipykernel
+      - run: pip install pandas
       - run: mkdocs gh-deploy --force

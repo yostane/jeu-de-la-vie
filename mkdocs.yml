@@ -12,6 +12,7 @@ extra:
 nav:
   - Accueil: index.md
   - Rappels de Python: python-tour.ipynb
+  - Notions avancées de Python: python-avance.ipynb
 
 plugins:
   - search
