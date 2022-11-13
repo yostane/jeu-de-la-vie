@@ -10,6 +10,7 @@
 - Une fois l'installation terminée, ouvrir un nouveau terminal pour installer python
     - Windows: `scoop install python`
     - MacOS: `brew install python`
+- Installer les librairies Python suivantes `pip install ipykernel pandas matplotlib numpy ipympl`
 - Installer [Visual Studio Code (ou VSCode)](https://code.visualstudio.com/)
     - Installer l'extension [python de VSCode](https://marketplace.visualstudio.com/items?itemName=ms-python.python) 
 
@@ -47,3 +48,4 @@
 - [www.apprendre-en-ligne.net](https://www.apprendre-en-ligne.net/pj/automates/chapitre12.pdf)
 - [www.futura-sciences.com](https://www.futura-sciences.com/tech/definitions/informatique-automate-cellulaire-8909/)
 - [fr.wikipedia.org](https://fr.wikipedia.org/wiki/Automate_cellulaire)
+- [electronut.in](https://electronut.in/a-simple-python-matplotlib-implementation-of-conways-game-of-life/)
