@@ -1,6 +1,6 @@
 import json
 
-data = [x for x in range(10)]
+data = [[y + x * 10 for y in range(4)] for x in range(5)]
 dict = {'data': data, 'alive_count': 10}
 json = json.dumps(dict)
 

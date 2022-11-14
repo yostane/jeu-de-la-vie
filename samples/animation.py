@@ -23,7 +23,7 @@ def update(frame):
     return [mat]
 
 
-ani = animation.FuncAnimation(fig, update, interval=10, save_count=50)
+ani = animation.FuncAnimation(fig, update, interval=100, save_count=50)
 
 
 def on_press(event):
