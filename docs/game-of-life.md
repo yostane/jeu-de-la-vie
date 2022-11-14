@@ -33,6 +33,7 @@
     -   Si **b** vaut 0, cela revient au jeu de la vie initial.
     -   Une cellule en état **naissance** n'est pas comprise dans les règles de transition.
     -   Permettre à l'utilisateur d'incrémenter / décrémenter la valeur de **b** en appuyant sur les touches **b** et **n** respectivement.
+    -   Lors de la génération initiale, il n'y a pas de cellules en naissance.
 -   Ajouter une fonctionnalité utile de votre part. **(2 pts)**
 
 ## Astuces et conseils
