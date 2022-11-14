@@ -20,7 +20,6 @@ def update(frame):
     figtext.set_text(f"Frame: {frame}. Last key pressed: {last_key_pressed}")
     grid = np.random.choice(vals, N*N, p=[1-p, p]).reshape(N, N)
     mat.set_data(grid)
-    return [mat]
 
 
 ani = animation.FuncAnimation(fig, update, interval=100, save_count=50)
