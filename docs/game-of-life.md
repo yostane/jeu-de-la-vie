@@ -37,6 +37,8 @@
 
 ## Astuces et conseils
 
+-   [Changer la couleur de la matrice dessinée via matplotlib](https://stackoverflow.com/a/43908997).
+
 ??? "Ce script montre comment capter un pression sur le clavier et comment afficher à l'utilisateur des informations sur le graphique"
 `py --8<-- animation.py --8<-- `
 
