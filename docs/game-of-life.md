@@ -42,12 +42,18 @@
 
 ??? "Ce script montre comment capter un pression sur le clavier et comment afficher à l'utilisateur des informations sur le graphique"
 
-    `py --8<-- animation.py --8<--`
+    ``` title="animation.py"
+    --8<-- animation.py --8<--
+    ```
 
 ??? "Ce script montre comment sauvegarder des données dans un fichier"
 
-    `py --8<-- save_file.py --8<--`
+    ``` title="save_file.py"
+    --8<-- save_file.py --8<--
+    ```
 
 ??? "Ce script montre comment charger des données depuis un fichier"
 
-    `py --8<-- load_file.py --8<--`
+    ``` title="load_file.py"
+    --8<-- load_file.py --8<--
+    ```
