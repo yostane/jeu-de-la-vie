@@ -1,39 +1,37 @@
 import random
+import numpy as np
 
 
 def run_q1():
     """Créer une matrice de 3 lignes et 5 colonnes ne contenant que des False."""
-    return [[False for j in range(5)] for i in range(3)]
+    return np.zeros((3, 5))
 
 
 def run_q2():
     """Créer une matrice de 5 lignes et 5 colonnes contenant aléatoirement True ou False"""
-    return [[bool(random.getrandbits(1)) for j in range(5)] for i in range(3)]
+    vals = [False, True]
+    return np.random.choice(vals, (5, 5), p=[0.5, 0.5])
 
 
 def run_q3():
     """Créer une matrice de 6 lignes et 4 colonnes qui contient les lettres de l'alphabet de gauche à droite et de haut en bas."""
-    m = []
+    m = np.chararray((6, 4))
     current_letter = "a"
     for i in range(6):
-        line_items = []
         for j in range(4):
-            line_items.append(current_letter)
+            m[i][j] = current_letter
             current_letter = chr(ord(current_letter) + 1)
-        m.append(line_items)
     return m
 
 
 def run_q4(m, n):
     """Définir une fonction define_life_grid(m, n) qui génère une grille de m lignes et n colonnes contenant aléatoirement True ou False."""
-    return [[bool(random.getrandbits(1)) for j in range(m)] for i in range(n)]
+    return np.random.choice([False, True], (m, n), p=[0.5, 0.5])
 
 
 def run_q5(m, n, p):
     """Définir une fonction define_life_grid(m, n, p) qui génère une grille de m lignes et n colonnes contenant aléatoirement True ou False, avec la probabilité p d'avoir True. (astuce: `True if random.random() < p else False`)"""
-    return [
-        [True if random.random() < p else False for j in range(n)] for i in range(m)
-    ]
+    return np.random.choice([False, True], (m, n), p=[1 - p, p])
 
 
 print("q1", run_q1())
