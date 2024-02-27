@@ -15,7 +15,8 @@
 ## Travail demandé
 
 - Développer un script python qui affiche le déroulement du jeu de la vie sur une grille de dimension n x n. n sera fixé au début du script et pourra être modifié d'une exécution à une autre. **(4 pts)**
-    - Les cellules de la grille initiale auront une chance de 80% de valoir `True`.
+    - Les cellules de la grille initiale auront une chance de 51% de valoir `True`.
+    - Tenter de changer la valeur de la proba pour voir s'il y a des différences.
     - Cette tâche est requise pour noter le reste du travail.
 - Permettre à l'utilisateur de changer la durée entre deux générations (ou itérations) avec les touches **+** et **-** de son clavier. **(2 pts)**
     - Ne pas utiliser de `sleep` mais utiliser plutôt l'argument `frame` de la fonction `update`
