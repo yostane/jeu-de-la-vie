@@ -8,7 +8,7 @@ p = 0.8
 vals = [0, 1, 2]
 grid = np.random.choice(vals, (N, N), p=[0.25, 0.25, 0.5])
 fig, ax = plt.subplots()
-mat = ax.matshow(grid, cmap=ListedColormap(["w", "k", "r"]))
+mat = ax.matshow(grid, cmap=ListedColormap(["k", "w", "r"]))
 
 grid = np.random.choice(vals, (N, N), p=[1 - p, p, 0])
 mat.set_data(grid)
@@ -27,7 +27,7 @@ def update(frame):
     mat.set_data(grid)
 
 
-ani = animation.FuncAnimation(fig, update, interval=100, save_count=50)
+ani = animation.FuncAnimation(fig, update, interval=1000, save_count=50)
 
 
 def on_press(event):
