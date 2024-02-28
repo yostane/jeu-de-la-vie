@@ -1,24 +1,29 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
+from matplotlib.colors import ListedColormap
 
-N = 4
+N = 3
 p = 0.8
-vals = [False, True]
-grid = np.random.choice(vals, N*N, p=[1-p, p]).reshape(N, N)
-
+vals = [0, 1, 2]
+grid = np.random.choice(vals, (N, N), p=[0.25, 0.25, 0.5])
 fig, ax = plt.subplots()
-mat = ax.matshow(grid)
+mat = ax.matshow(grid, cmap=ListedColormap(["w", "k", "r"]))
+
+grid = np.random.choice(vals, (N, N), p=[1 - p, p, 0])
+mat.set_data(grid)
 
 last_key_pressed = None
 
-figtext = plt.figtext(0.5, 0.01, "", wrap=True,
-                      horizontalalignment='center', fontsize=12)
+figtext = plt.figtext(
+    0.5, 0.01, "", wrap=True, horizontalalignment="center", fontsize=12
+)
 
 
 def update(frame):
     figtext.set_text(f"Frame: {frame}. Last key pressed: {last_key_pressed}")
-    grid = np.random.choice(vals, N*N, p=[1-p, p]).reshape(N, N)
+    grid = np.random.choice(vals, (N, N), p=[0.25, 0.75, 0])
+    print(grid)
     mat.set_data(grid)
 
 
@@ -32,6 +37,6 @@ def on_press(event):
     return event
 
 
-fig.canvas.mpl_connect('key_press_event', on_press)
+fig.canvas.mpl_connect("key_press_event", on_press)
 
 plt.show()

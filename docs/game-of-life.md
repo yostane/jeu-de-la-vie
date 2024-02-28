@@ -22,7 +22,7 @@
     - Ne pas utiliser de `sleep` mais utiliser plutôt l'argument `frame` de la fonction `update`
 - Afficher sur le graphique les informations sur le programme. **(3 pts)**
     - Nombre de vivants et de morts total.
-    - Nombre de naissance et de décès lors de la dernière l'itération.
+    - Nombre de naissance et nom de cellules décédées lors de la dernière l'itération.
     - Vitesse de l'animation (ou temps entre deux itérations).
 - Permettre à l'utilisateur de mettre en pause / reprendre l'animation avec **p**. **(2 pts)**
 - Permettre à l'utilisateur de sauvegarder dans un fichier l'état courant du programme et de le recharger. **(3 pts)**
@@ -30,9 +30,10 @@
     - Rechargement via la touche **r** du clavier ou au démarrage du programme.
     - Informations à enregistrer: grille actuelle, informations affichées à l'écran ainsi que les réglages (vitesse, etc.)
 - Ajouter un état au jeu de la vie: "**naissance**". **(4 pts)**
-    - Une cellule morte bascule vers l'état naissance avant de passer vers l'état "vivant" pendant **b** itérations.
+    - Une cellule **morte** qui satisfait les conditions pour passer vers l'état vivant bascule d'abord vers l'état naissance et y reste pendant **b** itérations avant de passer vers l'état **vivant**.
+        - C'est-à-dire qu'au lieu de passer de mort à vivant, la cellule passe de mort à naissance (qui reste dans cet état pendant b itérations), puis à vivant.
     - Si **b** vaut 0, cela revient au jeu de la vie initial.
-    - Une cellule en état **naissance** n'est pas comprise dans les règles de transition.
+    - Une cellule en état **naissance** n'est pas comprise dans les règles de transition (elle est ignorée).
     - Permettre à l'utilisateur d'incrémenter / décrémenter la valeur de **b** en appuyant sur les touches **b** et **n** respectivement.
     - Lors de la génération initiale, il n'y a pas de cellules en naissance.
 - Ajouter une fonctionnalité utile de votre part. **(2 pts)**
