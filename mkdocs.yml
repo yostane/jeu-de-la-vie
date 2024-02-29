@@ -16,6 +16,7 @@ nav:
   - numpy et matplotlib: numpy-matplotlib.ipynb
   - Exercices: exercices.md
   - Jeu de la vie: game-of-life.md
+  - Jeu de daes: dames.md
 
 plugins:
   - mkdocs-jupyter:

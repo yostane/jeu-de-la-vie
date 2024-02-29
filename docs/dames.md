@@ -1,6 +1,6 @@
 # Partie de dames automatique
 
-Développer un script Python qui lance un partie de dames automatique.
+Développer un script Python qui joue un partie de dames automatique.
 
 ## Règles du jeu de dames
 
@@ -27,5 +27,4 @@ Développer un script Python qui lance un partie de dames automatique.
 ## Travail demandé
 
 - Développer un jeu du damier où les deux joueurs sont jouées par une IA basique.
-- Pour chaque tour, l'action du joueur est exécutée de façon aléatoire parmi la liste de ses possibles.
-- Implémenter les règles du jeu au maximum.
+- Pour chaque tour, l'action du joueur est exécutée de façon aléatoire tant que l'action est légale.
