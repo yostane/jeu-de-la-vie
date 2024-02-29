@@ -28,3 +28,14 @@ Développer un script Python qui joue un partie de dames automatique.
 
 - Développer un jeu du damier où les deux joueurs sont jouées par une IA basique.
 - Pour chaque tour, l'action du joueur est exécutée de façon aléatoire tant que l'action est légale.
+- Permettre à l'utilisateur de changer la vitesse de jeu les touches **+** et **-** de son clavier.
+  - Ne pas utiliser de `sleep` mais utiliser plutôt l'argument `frame` de la fonction `update`
+- Afficher sur le graphique les informations sur la partie.
+  - Nombre de pièces blanches et nombre de pièces noires.
+  - Le résultat de la partie.
+  - Vitesse de jeu (ou temps entre deux itérations).
+- Permettre à l'utilisateur de mettre en pause / reprendre l'animation avec **p**.
+- Permettre à l'utilisateur de sauvegarder dans un fichier l'état courant du programme et de le recharger.
+  - Sauvegarde via la touche **s** du clavier. Le programme se termine ou continue quand on sauvegarde (faire au plus simple).
+  - Rechargement via la touche **r** du clavier ou au démarrage du programme.
+  - Informations à enregistrer: grille actuelle, informations affichées à l'écran ainsi que les réglages (vitesse, etc.).
