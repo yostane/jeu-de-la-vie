@@ -1,4 +1,4 @@
-mkdocs-material==9.5.11
+mkdocs-material==9.5.16
 mkdocs-jupyter==0.24.6
 ipykernel==6.29.3
 pandas==2.2.1
