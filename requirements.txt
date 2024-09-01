@@ -1,7 +1,7 @@
-mkdocs-material==9.5.30
+mkdocs-material==9.5.34
 mkdocs-jupyter==0.24.8
 ipykernel==6.29.5
 pandas==2.2.2
-matplotlib==3.9.1
-numpy==2.0.1
+matplotlib==3.9.2
+numpy==2.1.0
 ipympl==0.9.4
