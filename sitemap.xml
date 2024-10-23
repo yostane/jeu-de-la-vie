@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://yostane.github.io/jeu-de-la-vie/</loc>
+         <lastmod>2024-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://yostane.github.io/jeu-de-la-vie/dames/</loc>
+         <lastmod>2024-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://yostane.github.io/jeu-de-la-vie/exercices/</loc>
+         <lastmod>2024-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://yostane.github.io/jeu-de-la-vie/game-of-life/</loc>
+         <lastmod>2024-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://yostane.github.io/jeu-de-la-vie/numpy-matplotlib/</loc>
+         <lastmod>2024-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://yostane.github.io/jeu-de-la-vie/python-avance/</loc>
+         <lastmod>2024-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://yostane.github.io/jeu-de-la-vie/python-tour/</loc>
+         <lastmod>2024-10-23</lastmod>
+    </url>
+</urlset>
